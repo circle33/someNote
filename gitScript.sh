@@ -34,3 +34,5 @@ git remote rename oldNamw newName
 git push orign/remoteName master
 #把代码拉下来
 git pull orign/remoteName master
+#创建ssh 秘钥 先要跳转到home/user/curentUser
+ssh-keygen -t rsa -C 1227942700qq@gmail.com
