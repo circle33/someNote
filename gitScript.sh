@@ -24,4 +24,9 @@ git checkout branchName
 git merge theAnotherBrancheName
 # 合并冲突   当两个分支里的代码都发生了改变并且将要合并分支时就会发生错误
 # 这种情况下就需要手动合并 并且commit 时不用加上文件名
-
+#查看有没有仓库别名
+git remote -v
+#添加仓库别名
+git remote add theName  RepositoriesURL
+#更改仓库别名
+git remote rename oldNamw newName
