@@ -32,3 +32,5 @@ git remote add theName  RepositoriesURL
 git remote rename oldNamw newName
 #把本地代码push到github仓库 上传的最小单位是一个branch
 git push orign/remoteName master
+#把代码拉下来
+git pull orign/remoteName master
